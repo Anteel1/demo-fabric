@@ -20,6 +20,8 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@aries-framework/core": "^0.3.3",
+    "@aries-framework/node": "^0.3.3",
     "@hyperledger/fabric-gateway": "^1.1.1",
     "@nestjs/common": "^9.0.0",
     "@nestjs/core": "^9.0.0",

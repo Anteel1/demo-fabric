@@ -1,11 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { FabricModule } from './fabric/fabric.module';
+import { AriesConfig } from './aries/config.aries';
 
 @Module({
-  imports: [FabricModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService, AriesConfig],
 })
 export class AppModule { }
